@@ -1,0 +1,64 @@
+body {
+    background-image: url(/images/Snööt\ kehykset.JPG);
+    background-size: fill;
+    height: auto;
+    background-repeat: no-repeat;
+    color: rgb(255, 255, 255);
+}
+#bigheader {
+    font-size: 60px;
+}
+.card {
+    flex-direction: column; /* Ensure children stack vertically */
+    height: 100%; /* Ensure cards take the full height of the parent */
+}
+small {
+    padding-left: 20px;
+}
+
+.col {
+    margin-bottom: 20px;
+}
+.albumphoto {
+    margin-top: 10px;
+}
+#kirja {
+    width: 560px;
+    padding: 40px;
+}
+#logo {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+#box {
+    background-color: rgba(0, 0, 0, 0.417);
+    padding: 15px;
+    border-radius: 10px;
+    max-width: 700px;
+    margin-bottom: 20px;
+}
+#btn {
+    padding-top: 10px;
+}
+#activeicon {
+    height: 20px;
+}
+#tablebox {
+    background-color: rgba(0, 0, 0, 0.417);
+    height: 700px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#tablecontainer {
+    height: 420px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+#ajaxList {
+    max-height: fit-content;
+    background-color: rgba(255, 255, 255, 0.719);
+    color: black;
+    border-radius: 20px;
+    margin-top: 20px;
+}
