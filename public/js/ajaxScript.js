@@ -1,6 +1,6 @@
 function getAjaxMessage(event) {
     event.preventDefault(); // Disable the default form behaviour
-    var date = new Date().toLocaleString()
+    var date = Date().toLocaleString()
     // Get information from the form
     const ajaxMessage = {
         username: $('#username').val(),

@@ -66,7 +66,7 @@ app.post('/newmessage', (req, res) => {
             username: req.body.username,
             country: req.body.country,
             message: req.body.message,
-            date: new Date()
+            date: Date()
         };
 
         console.log("Message successful");
